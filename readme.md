@@ -1,6 +1,8 @@
-# eslint-config-alexandernanberg
+# eslint-config-jesper
 
-> Eslint rules according to my personal preference
+🔥 Best ESLint config out there 🔥
+
+Fork of https://github.com/alexandernanberg/eslint-config-alexandernanberg
 
 ## License
 MIT
