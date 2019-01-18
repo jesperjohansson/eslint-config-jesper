@@ -1,12 +1,15 @@
 {
-  "name": "eslint-config-alexandernanberg",
+  "name": "eslint-config-jesper",
   "license": "MIT",
-  "version": "1.5.1",
+  "version": "1.0.0",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
-  "description": "ESLint rules according to my personal preference",
-  "repository": "github:alexandernanberg/eslint-config-alexandernanberg",
+  "contributors": [
+    "Jesper Johansson <johansson.jesper@outlook.com>"
+  ],
+  "description": "🔥 Best ESLint config out there 🔥",
+  "repository": "github:jesperjohansson/eslint-config-jesper",
   "bugs": {
-    "url": "https://github.com/alexandernanberg/eslint-config-alexandernanberg/issues"
+    "url": "https://github.com/jesperjohansson/eslint-config-jesper/issues"
   },
   "keywords": [
     "eslint",
