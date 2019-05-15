@@ -13,7 +13,6 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'react/jsx-filename-extension': 'off',
-    'react/prop-types': 'off',
     'react/sort-comp': 'off',
   },
 }
