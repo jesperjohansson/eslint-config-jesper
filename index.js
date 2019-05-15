@@ -14,5 +14,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'react/jsx-filename-extension': 'off',
     'react/sort-comp': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 }
