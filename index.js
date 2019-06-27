@@ -10,12 +10,12 @@ module.exports = {
     browser: true,
   },
   rules: {
-		'import/prefer-default-export': 'off',
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'import/prefer-default-export': 'off',
     'comma-dangle': ['error', 'always-multiline'],
-		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
     'react/jsx-filename-extension': 'off',
     'react/sort-comp': 'off',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
   },
 }
