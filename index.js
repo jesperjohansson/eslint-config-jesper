@@ -10,8 +10,9 @@ module.exports = {
     browser: true,
   },
   rules: {
+		'import/prefer-default-export': 'off',
     'comma-dangle': ['error', 'always-multiline'],
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'react/jsx-filename-extension': 'off',
     'react/sort-comp': 'off',
     'react-hooks/rules-of-hooks': 'error',
