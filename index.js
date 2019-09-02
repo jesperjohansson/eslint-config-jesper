@@ -10,7 +10,7 @@ module.exports = {
     browser: true,
   },
   rules: {
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'arrow-parens': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'react-hooks/exhaustive-deps': 'warn',
