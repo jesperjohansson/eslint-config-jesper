@@ -18,4 +18,12 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/sort-comp': 'off',
   },
+  overrides: [
+    {
+      files: ['*Slice.js'], // Redux-toolkit slices use immer
+      rules: {
+        'no-param-reassign': 0,
+      },
+    },
+  ],
 }
